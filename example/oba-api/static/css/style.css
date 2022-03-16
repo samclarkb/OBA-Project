@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 html {
 	margin: 0;
@@ -24,6 +24,10 @@ header {
 	margin: 0;
 	padding: 0;
 	display: flex;
+}
+
+article > div {
+	width: 100%;
 }
 
 header h1:first-of-type {
@@ -65,21 +69,44 @@ article {
 	padding: 2vw;
 	margin: 2.5vw 0;
 	color: black;
-	box-shadow: 2vw 2.5vw rgba(150, 150, 150, 0.15);
-	/* border: solid 0.25em rgba(90, 60, 160, 0.5); */
+	box-shadow: 2vw 2vw rgba(0, 0, 0, 0.075);
+	background-color: rgba(0, 0, 0, 0.025);
 	border-radius: 5vw;
+	transform: translateX(-1.5vw);
+}
+
+article {
+	margin-top: 5vw;
 }
 
 article p {
 	color: rgba(150, 150, 150);
-	font-size: 1em;
-	margin: 1vw 0;
+	font-size: 0.1vw;
+	letter-spacing: -0.5vw;
+	margin: 1.5vw 0;
+}
+
+article p:nth-of-type(2) {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	font-size: 0.1vw;
+	letter-spacing: -0.5vw;
 }
 
 article h2 {
-	/* font-size: 0.2em; */
 	margin: 0;
 	font-size: clamp(1rem, 1vw, 1rem);
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+label img {
+	width: 10vw;
+	height: 10vw;
 }
 
 article > img:nth-of-type(1) {
@@ -89,20 +116,72 @@ article > img:nth-of-type(1) {
 	border-radius: 3vw;
 }
 
-article div img {
-	width: 5vw;
-	height: 5vw;
+article div > section div > img {
+	width: 6.5vw;
+	height: 6.5vw;
 	border-radius: 50%;
 }
 
-main > section > button img {
+article div section {
+	margin-top: 5vw;
+	display: flex;
+	position: absolute;
+	transform: translateY(-20%);
+	bottom: 0;
+}
+
+article div section > div:last-of-type {
+	margin: 0 5vw;
+	width: 20%;
+}
+
+article div section div:first-of-type img {
+	border-radius: 0;
+}
+
+main > section > form > input {
 	width: 10vw;
 	height: 10vw;
 	border-radius: 50%;
 }
 
-main > section {
-	padding: 5vw;
+[type='radio'] {
+	opacity: 0;
+	transform: translate(8vw, 8vw);
+	width: 5vw;
+	height: 5vw;
+	margin: 0;
+	padding: 0;
+}
+
+[type='radio'] + img {
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 0 5vw;
+}
+
+[type='radio']:checked + img {
+	outline: 1.5vw solid rgb(90, 60, 160);
+}
+
+main > section > form {
+	padding: 1vw 0;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	scrollbar-width: none;
+}
+
+main > section > form::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
+
+main > section:first-of-type {
+	margin: 0 0 4vw;
+}
+
+main > section:nth-of-type(2) {
+	padding: 6vw 0vw 3vw;
 }
 
 main > section > button {
@@ -111,16 +190,19 @@ main > section > button {
 	height: 10vw;
 	background-color: white;
 	border: none;
-	margin: 0 2.5vw;
+	margin: 0 5vw;
 }
 
 main > h2 {
 	font-weight: 300;
 	margin: 5vw 0 0 5vw;
 	margin-bottom: 0;
+	border-bottom: solid 0.75vw rgb(90, 60, 160);
+	display: inline;
+	/* text-decoration: underline; */
 }
 
-#nee {
+/* #nee {
 	display: none;
 	background-color: green;
 	height: 75vh;
@@ -129,4 +211,44 @@ main > h2 {
 
 #nee.show {
 	display: flex;
+} */
+
+main > section:nth-of-type(2) {
+	overflow: hidden;
+}
+
+main > section:nth-of-type(2) > button {
+	box-shadow: 1vw 1vw rgba(0, 0, 0, 0.075);
+	background-color: rgba(0, 0, 0, 0.025);
+	width: 15vw;
+	height: 15vw;
+	border-radius: 0%;
+	padding: 2vw;
+	border-radius: 2vw;
+}
+
+main > section:nth-of-type(2) > button img {
+	border-radius: 0%;
+	border-radius: 2vw;
+	width: 10vw;
+}
+
+main > section:nth-of-type(2),
+main > section:nth-of-type(3) {
+	display: flex;
+	justify-content: space-around;
+}
+
+main > section:nth-of-type(3) {
+	text-align: center;
+	margin: 0 0 10vw 0;
+	padding: 0;
+}
+
+main > section:nth-of-type(3) h3 {
+	font-weight: 400;
+	font-size: 1vw;
+	letter-spacing: -0.5vw;
+	margin: 0;
+	padding: 0;
 }

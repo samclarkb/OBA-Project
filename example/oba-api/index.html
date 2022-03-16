@@ -5,7 +5,6 @@
 		<title>Developers</title>
 		<link rel="stylesheet" href="static/css/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script type="module" src="static/js/app.js"></script>
 	</head>
 	<body>
 		<header>
@@ -17,12 +16,58 @@
 			<h1>Voeding</h1>
 		</header>
 		<main>
-			<h2>Selecteer een taal</h2>
+			<h2>Selecteer een taal:</h2>
 			<section>
-				<button><img src="static/images/netherlands.png" alt="" /></button>
-				<button><img src="static/images/english.png" alt="" /></button>
-				<button><img src="static/images/germany.png" alt="" /></button>
+                <form action="">
+                    <label for="">
+                        <input type="radio" name="flag" value="netherlands"></input>
+                        <img src="static/images/netherlands.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="english"></input type="radio">
+                        <img src="static/images/english.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="germany"></input type="radio">
+                        <img src="static/images/germany.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="france"></input type="radio">
+                        <img src="static/images/france.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="spain"></input type="radio">
+                        <img src="static/images/spain.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="italian"></input type="radio">
+                        <img src="static/images/italian.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="china"></input type="radio">
+                        <img src="static/images/china.png" alt="" />
+                    </label>
+                    <label for="">
+                        <input type="radio" name="flag" value="arabic"></input type="radio">
+                        <img src="static/images/arabic.png" alt="" />
+                    </label>
+            </form>
 			</section>
+			<h2>Selecteer een tijdsindicatie:</h2>
+			<section>
+				<button><img src="static/images/tijd1.png" alt="" /></button>
+				<button><img src="static/images/tijd2.png" alt="" /></button>
+				<button><img src="static/images/tijd3.png" alt="" /></button>
+			</section>
+			<section>
+				<h3>3 - 5 uur</h3>
+				<h3>7 - 10 uur</h3>
+				<h3>10+ uur</h3>
+			</section>
+            <section>
+                <p id='results'></p>
+            </section>
 		</main>
+		<script type="module" src="static/js/app.js"></script>
 	</body>
 </html>
