@@ -1,4 +1,4 @@
-# :iphone: Barcode scanner app
+# :books: OBA-Project 
 
 ## Table of Contents 
 * [Assesment](https://github.com/samclarkb/OBA-Project#books-assessment)
@@ -20,7 +20,6 @@ This application allows users to scan barcodes of products from the grocery stor
 
 When the scan button is pressed by the user, the camera will be enabled. Now when the user brings the barcode in front of the camera, the appplication will show the product details of the specific product. In the example below you see how the application works and what the application looks like.
 
-<img src="https://github.com/samclarkb/Food-app/blob/main/static/images/Gifje.gif" width="300">
 
 ## :chart_with_upwards_trend: Process
 
@@ -37,7 +36,7 @@ There are a few things I didn't get done due to lack of time:
 
 Clone this repository with the following command:
 
-`git clone https://github.com/samclarkb/Food-app.git`
+`git clone https://github.com/samclarkb/OBA-Project.git`
 
 ## :mag_right: Recources 
 - W3schools. (2022). How TO - CSS Loader. How TO - CSS Loader. https://www.w3schools.com/howto/howto_css_loader.asp
