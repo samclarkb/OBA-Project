@@ -3,7 +3,6 @@
 ## Table of Contents 
 * [Assesment](https://github.com/samclarkb/OBA-Project#books-assessment)
 * [Concept](https://github.com/samclarkb/OBA-Project#bulb-concept)
-* [Process](https://github.com/samclarkb/OBA-Project#chart_with_upwards_trend-process)
 * [Wishlist](https://github.com/samclarkb/OBA-Projectp#memo-wishlist)
 * [Installation](https://github.com/samclarkb/OBA-Project#wrench-installation)
 * [Recources](https://github.com/samclarkb/OBA-Project#mag_right-recources)
