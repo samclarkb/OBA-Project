@@ -16,29 +16,18 @@ Voeding en diëtiek
 Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding op mijn conditie, om te leren hoe ik mijn sport beter kan beoefenen.
 
 ## :bulb: Concept
-This application allows users to scan barcodes of products from the grocery store. The applictaion is based on the following user story: *'As a foodie, I want to be able to scan a product while shopping so that I can read more information about the product and make a good choice whether it fits my diet.'*
+Met dit prototype stel ik de gebruikers van de OBA in staat om 
 
+Uiterlijk van de app: 
 
-<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/resultaten.png" width="400">
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/filter.png" width="250"> 
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/resultaten.png" width="250">
 
-
-<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/filter.png" width="400">
-
-
-
-When the scan button is pressed by the user, the camera will be enabled. Now when the user brings the barcode in front of the camera, the appplication will show the product details of the specific product. In the example below you see how the application works and what the application looks like.
-
-
-## :chart_with_upwards_trend: Process
-
-Interested in my process of making the application? Click [here](https://github.com/samclarkb/Food-app/wiki/Process)!
 
 ## :memo: Wishlist
-There are a few things I didn't get done due to lack of time:
-* insert barcode option
-* close scanner option
-* Available for Iphone
-* Resolve the remaining issues
+Door gebrek aan tijd, heb ik bepaalde dingen niet kunnen doen/afmaken:
+* Filter functie werkend maken
+* detail pagina
 
 ## :wrench: Installation
 
@@ -47,8 +36,7 @@ Clone this repository with the following command:
 `git clone https://github.com/samclarkb/OBA-Project.git`
 
 ## :mag_right: Recources 
-- W3schools. (2022). How TO - CSS Loader. How TO - CSS Loader. https://www.w3schools.com/howto/howto_css_loader.asp
-- Webmentions. (2021). Detecting barcodes from the webcam. Detecting barcodes from the webcam. https://daily-dev-tips.com/posts/detecting-barcodes-from-the-webcam/
+
 
 ## :bookmark: License 
 Copyright (c) 2021 Sam Clark Boot, [MIT](https://github.com/samclarkb/OBA-Project/blob/main/LICENSE)
