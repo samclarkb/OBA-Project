@@ -1,4 +1,4 @@
-import { time } from './languages.js'
+import { time } from './time.js'
 import { languages } from './languages.js'
 const main = document.querySelector('main')
 

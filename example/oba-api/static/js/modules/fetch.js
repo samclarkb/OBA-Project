@@ -1,4 +1,5 @@
 import { render } from './render.js'
+import { render2 } from './render2.js'
 
 // const endpoint = 'https://zoeken.oba.nl/api/v1/search/?q='
 // const query = 'voedingsleer'
@@ -10,13 +11,28 @@ const config = {
 	Authorization: `Bearer ${secret}`,
 }
 
-export const fetch = () => {
+export const getData = () => {
 	fetch('voeding.json', config)
 		.then(response => {
 			return response.json()
 		})
 		.then(data => {
 			render(data)
+			// popup(data)
+		})
+		.catch(err => {
+			console.log(err)
+		})
+}
+
+export const getData2 = () => {
+	fetch('API2.json', config)
+		.then(response => {
+			return response.json()
+		})
+		.then(data => {
+			console.log(data)
+			render2(data)
 			// popup(data)
 		})
 		.catch(err => {
