@@ -296,3 +296,10 @@ main > h3 {
 main > section:nth-of-type(2) form img {
 	transform: translateY(30%);
 }
+
+div > article p {
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

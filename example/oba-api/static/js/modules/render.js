@@ -4,7 +4,7 @@ const main = document.querySelector('main')
 
 export const render = data => {
 	const results = data
-	results.forEach((item, i) => {
+	results.forEach(item => {
 		// renders a book component
 		const html = `
         <div>

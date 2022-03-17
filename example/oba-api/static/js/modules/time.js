@@ -3,7 +3,6 @@ export const time = data => {
 	// Removes all the letters within the array
 	if (paginas > 0 && paginas < 150) {
 		// If a book has less than 150 pages, then return a specific image
-		console.log('test')
 		const image = '<img src="static/images/tijd1.png"/>'
 		return image
 	}
