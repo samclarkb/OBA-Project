@@ -2,7 +2,7 @@
 <html lang="nl" dir="ltr">
 	<head>
 		<meta charset="utf-8" />
-		<title>Developers</title>
+		<title>OBA</title>
 		<link rel="stylesheet" href="static/css/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
@@ -16,11 +16,12 @@
 			<h1>Voeding</h1>
 		</header>
 		<main>
+            <h3>Selecteer een taal en een tijdsindicatie voor specifieke zoekresultaten</h3>
 			<h2>Selecteer een taal:</h2>
 			<section>
                 <form action="">
                     <label for="">
-                        <input type="radio" name="flag" value="netherlands"></input>
+                        <input type="radio" name="flag" value="Nederlands" ></input>
                         <img src="static/images/netherlands.png" alt="" />
                     </label>
                     <label for="">
@@ -55,9 +56,26 @@
 			</section>
 			<h2>Selecteer een tijdsindicatie:</h2>
 			<section>
-				<button><img src="static/images/tijd1.png" alt="" /></button>
-				<button><img src="static/images/tijd2.png" alt="" /></button>
-				<button><img src="static/images/tijd3.png" alt="" /></button>
+                <form >
+                  
+                    <input type="radio" name="time" value="kort" id='short'></input type="radio">
+                <label for="short">
+                    <img src="static/images/tijd1.png" alt="" />
+                </label>
+
+            
+                <input type="radio" name="time" value="gemiddeld" id='average' ></input type="radio">
+                <label for="average">
+                    <img src="static/images/tijd2.png" alt="" />
+                </label>
+       
+
+                <input type="radio" name="time" value="lang" id='long'></input type="radio">
+                <label for="long">
+                    <img src="static/images/tijd3.png" alt="" />
+                </label>
+     
+                </form>
 			</section>
 			<section>
 				<h3>3 - 5 uur</h3>
