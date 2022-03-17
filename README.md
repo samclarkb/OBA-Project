@@ -18,6 +18,14 @@ Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding o
 ## :bulb: Concept
 This application allows users to scan barcodes of products from the grocery store. The applictaion is based on the following user story: *'As a foodie, I want to be able to scan a product while shopping so that I can read more information about the product and make a good choice whether it fits my diet.'*
 
+
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/resultaten.png" width="400">
+
+
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/filter.png" width="400">
+
+
+
 When the scan button is pressed by the user, the camera will be enabled. Now when the user brings the barcode in front of the camera, the appplication will show the product details of the specific product. In the example below you see how the application works and what the application looks like.
 
 
