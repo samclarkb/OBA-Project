@@ -15,9 +15,11 @@ Voeding en diëtiek
 Als sportieve twintiger wil ik mij verdiepen in het effect van gezonde voeding op mijn conditie, om te leren hoe ik mijn sport beter kan beoefenen.
 
 ## :bulb: Concept
-Met dit prototype stel ik de gebruikers van de OBA in staat om 
+Met dit prototype stel ik de gebruikers van de OBA in staat, om in één oog opslag te laten zien hoelang je over het lezen van bepaald boek doet en in welke talen het boek beschikbaar is. Ik heb het concept een beetje op mezelf betrokken. De laatste tijd lees ik alleen boeken in het Engels en, door gebrek aan tijd, wil ik graag weten hoelang ik over het lezen van een boek doe. Vandaar heb ik gekozen voor deze twee filter opties. Ik hoop dat gebruikers op deze manier sneller de conclusie kunnen trekken welk(e) boek(en) ze willen lezen.
 
-Uiterlijk van de app: 
+het is ook de bedoeling dat de gebruiker kan filteren op taal en tijdsduur, maar deze functie doet het helaas nog niet.
+
+Uiterlijk van de app (zoals je kunt zien werkt de filter functie nog niet): 
 
 <img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/filter.png" width="250"> 
 <img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/resultaten.png" width="250">
@@ -26,7 +28,7 @@ Uiterlijk van de app:
 ## :memo: Wishlist
 Door gebrek aan tijd, heb ik bepaalde dingen niet kunnen doen/afmaken:
 * Filter functie werkend maken
-* detail pagina
+* detail pagina toevoegen
 
 ## :wrench: Installation
 
