@@ -21,9 +21,8 @@ het is ook de bedoeling dat de gebruiker kan filteren op taal en tijdsduur, maar
 
 Uiterlijk van de app (zoals je kunt zien werkt de filter functie nog niet): 
 
-<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/filter.png" width="250"> 
-<img src="https://github.com/samclarkb/OBA-Project/blob/main/example/oba-api/static/images/resultaten.png" width="250">
-
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/static/images/filter.png" width="250">
+<img src="https://github.com/samclarkb/OBA-Project/blob/main/static/images/resultaten.png" width="250"> 
 
 ## :memo: Wishlist
 Door gebrek aan tijd, heb ik bepaalde dingen niet kunnen doen/afmaken:
