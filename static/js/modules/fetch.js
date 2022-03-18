@@ -27,7 +27,7 @@ export const getData2 = () => {
 				.then(data => {
 					render2(data)
 				})
-			console.log(err)
+			// console.log(err)
 		})
 }
 
@@ -46,6 +46,6 @@ export const getData = () => {
 				.then(data => {
 					render(data)
 				})
-			console.log(err)
+			// console.log(err)
 		})
 }
